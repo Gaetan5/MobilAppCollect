@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/services": "pages/services.js",
-  "/workspace": "pages/workspace.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/tools": "pages/tools.js",
+  "/workspace": "pages/workspace.js"
 }
