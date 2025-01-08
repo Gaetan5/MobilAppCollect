@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Services: React.FC = () => {
     return (
@@ -14,6 +14,7 @@ const Services: React.FC = () => {
                 <li>Formation et accompagnement</li>
                 <li>Support technique et maintenance</li>
             </ul>
+            <Footer />
         </div>
     );
 };

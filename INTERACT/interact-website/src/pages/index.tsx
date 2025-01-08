@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
         <p className="text-lg mb-2">Our Mission: To provide tools and spaces for effective teamwork.</p>
         <p className="text-lg mb-2">Our Values: Integrity, Collaboration, and Excellence.</p>
       </main>
+      <Footer />
     </div>
   );
 };
